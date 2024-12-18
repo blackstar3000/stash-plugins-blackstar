@@ -2,7 +2,7 @@
   name: Stash New Scenes Filter Button
   metadata:
     description: Adds a customizable button to the scenes page.
-    version: 0.1
+    version: 0.1.1
     date: 2024-02-11 03:26:25
     path: StashNewScenesFilterButton.zip
     sha256: a631298a43fd573311cbe2b2b786bde27d8d85ea7a2e03e012e3ad4628dbadbf
