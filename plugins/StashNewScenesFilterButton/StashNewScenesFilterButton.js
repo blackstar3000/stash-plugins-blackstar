@@ -3,7 +3,7 @@
 // @namespace   https://github.com/7dJx1qP/stash-userscripts
 // @description Adds a button to the scenes page to switch to a new scenes filter
 // @version     0.1.0
-// @author      7dJx1qP
+// @author      Boss
 // @match       http://localhost:9999/*
 // @grant       unsafeWindow
 // @require     https://raw.githubusercontent.com/7dJx1qP/stash-userscripts/master/src/StashUserscriptLibrary.js
