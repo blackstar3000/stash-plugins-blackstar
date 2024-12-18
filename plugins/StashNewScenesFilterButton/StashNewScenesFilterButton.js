@@ -2,7 +2,7 @@
 // @name        Stash New Scenes Filter Button
 // @namespace   https://github.com/7dJx1qP/stash-userscripts
 // @description Adds a button to the scenes page to switch to a new scenes filter
-// @version     0.1.0
+// @version     0.1-695c1f2
 // @author      Boss
 // @match       http://localhost:9999/*
 // @grant       unsafeWindow
