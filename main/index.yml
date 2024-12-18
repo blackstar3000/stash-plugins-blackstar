@@ -1,107 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stash New Scenes Filter Button Configuration</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-        h1 {
-            text-align: center;
-            color: #444;
-        }
-        .container {
-            max-width: 500px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        label {
-            display: block;
-            margin-top: 15px;
-            font-weight: bold;
-        }
-        input[type="text"], button {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            box-sizing: border-box;
-            font-size: 16px;
-        }
-        button {
-            margin-top: 20px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        .success-message {
-            margin-top: 15px;
-            color: green;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <h1>Stash New Scenes Filter Button</h1>
-    <div class="container">
-        <form id="pluginConfigForm">
-            <label for="buttonText">Button Text</label>
-            <input type="text" id="buttonText" placeholder="Enter button text" required>
+- id: stashNewPerformerFilterButton
+  name: Stash New Performer Filter Button
+  metadata:
+    description: Adds a customizable button to the scenes page.
 
-            <label for="filterUrl">Filter URL</label>
-            <input type="text" id="filterUrl" placeholder="Enter the filter URL" required>
-
-            <button type="submit">Save Configuration</button>
-            <div id="successMessage" class="success-message" style="display: none;">Configuration Saved!</div>
-        </form>
-    </div>
-
-    <script>
-        // Simulate saving plugin config to Stash backend or localStorage
-        document.getElementById("pluginConfigForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-
-            const buttonText = document.getElementById("buttonText").value.trim();
-            const filterUrl = document.getElementById("filterUrl").value.trim();
-
-            if (buttonText && filterUrl) {
-                // Save configuration to localStorage as a mock Stash backend
-                localStorage.setItem("stashNewScenesFilterButton", JSON.stringify({
-                    buttonText: buttonText,
-                    filterUrl: filterUrl
-                }));
-
-                // Show success message
-                const successMessage = document.getElementById("successMessage");
-                successMessage.style.display = "block";
-
-                setTimeout(() => {
-                    successMessage.style.display = "none";
-                }, 2000);
-            }
-        });
-
-        // Load existing config if available
-        window.addEventListener("DOMContentLoaded", function () {
-            const savedConfig = JSON.parse(localStorage.getItem("stashNewScenesFilterButton"));
-            if (savedConfig) {
-                document.getElementById("buttonText").value = savedConfig.buttonText || "";
-                document.getElementById("filterUrl").value = savedConfig.filterUrl || "";
-            }
-        });
-    </script>
-</body>
-</html>
+version: 0.4.2-0132a6a
+  date: 2024-02-11 03:26:25
+  path: stashNewPerformerFilterButton.zip
+  sha256: d2d6eee1ab79c426bcceffe7a95db67f5ceae3b0c62dc775388539db5575840b
+  requires:
+    - stashUserscriptLibrary7dJx1qP
