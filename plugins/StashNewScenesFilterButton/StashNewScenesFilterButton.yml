@@ -2,7 +2,7 @@ name: StashNewScenesFilterButton
 # requires: stashUserscriptLibrary7dJx1qP
 description: Adds a customizable button to the Scenes page
 version: 0.1
-url: https://github.com/7dJx1qP/stash-plugins/StashNewScenesFilterButton
+url: https://github.com/blackstar3000/stash-plugins/StashNewScenesFilterButton
 ui:
   requires: 
   - stashUserscriptLibrary7dJx1qP
