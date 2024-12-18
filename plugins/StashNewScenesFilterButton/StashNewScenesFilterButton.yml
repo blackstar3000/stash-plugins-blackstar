@@ -1,7 +1,7 @@
 name: StashNewScenesFilterButton
 # requires: stashUserscriptLibrary7dJx1qP
-description: Adds a customizable button to the performers page. Links to a new performers filter by default.
-version: 0.4.2
+description: Adds a customizable button to the Scenes page
+version: 0.1
 url: https://github.com/7dJx1qP/stash-plugins#stash-new-performer-filter-button
 ui:
   requires: 
