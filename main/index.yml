@@ -7,4 +7,4 @@
     path: stashNewPerformerFilterButton.zip
     sha256: d2d6eee1ab79c426bcceffe7a95db67f5ceae3b0c62dc775388539db5575840b
     requires:
-      - stashUserscriptLibrary7dJx1qP
+      - stashUserscriptLibrary7dJx1q
