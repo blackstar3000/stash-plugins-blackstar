@@ -1,10 +1,8 @@
-- id: stashNewPerformerFilterButton
-  name: Stash New Performer Filter Button
+- id: StashNewScenesFilterButton
+  name: Stash New Scenes Filter Button
   metadata:
     description: Adds a customizable button to the scenes page.
-    version: 0.4.2-0132a6a
+    version: 0.1-695c1f2
     date: 2024-02-11 03:26:25
-    path: stashNewPerformerFilterButton.zip
-    sha256: d2d6eee1ab79c426bcceffe7a95db67f5ceae3b0c62dc775388539db5575840b
-    requires:
-      - stashUserscriptLibrary7dJx1q
+    path: StashNewScenesFilterButton.zip
+    sha256: a631298a43fd573311cbe2b2b786bde27d8d85ea7a2e03e012e3ad4628dbadbf
