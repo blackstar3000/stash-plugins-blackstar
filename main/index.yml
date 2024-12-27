@@ -1,10 +1,10 @@
-- id: stashNewScenesFilterButton
-  name: Stash New Scenes Filter Button
+- id: stashBatchQueryEdit
+  name: Stash Batch Query Edit
   metadata:
-    description: Adds a filter button to the scenes page in Stash.
-  version: 0.4.2-0132a6a
-  date: 2024-02-11T03:26:25.000Z
-  path: stashNewScenesFilterButton.zip
-  sha256: d2d6eee1ab79c426bcceffe7a95db67f5ceae3b0c62dc775388539db5575840b
+    description: Batch modify scene tagger search query
+  version: 0.6.1-0132a6a
+  date: 2024-02-11 03:26:25
+  path: stashBatchQueryEdit.zip
+  sha256: f35375e57448ad5672724753a1805a7b2ffe32ff4ff268a87ef41854441f7464
   requires:
     - stashUserscriptLibrary7dJx1qP
