@@ -3,7 +3,7 @@
   metadata:
     description: Batch modify scene tagger search query
   version: 0.6.1-0132a6a
-  date: 2024-02-11 03:26:25
+  date: 2024-12-27 04:04:25
   path: stashBatchQueryEdit.zip
   sha256: f35375e57448ad5672724753a1805a7b2ffe32ff4ff268a87ef41854441f7464
   requires:
