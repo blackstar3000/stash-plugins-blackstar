@@ -1,4 +1,4 @@
-id: stashNewScenesFilterButton
+- id: stashNewScenesFilterButton
 name: Stash New Scenes Filter Button
 metadata:
   description: Adds a filter button to the scenes page in Stash.
