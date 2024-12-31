@@ -1,0 +1,13 @@
+name: baddiehub
+sceneByURL:
+  - action: scrapeXPath
+      url:
+        - https://baddiehub.com/?filter=latest
+    scraper: sceneScraper
+xPathScrapers:
+  sceneScraper:
+    scene:
+      # Using a more general XPath selector to avoid breaking if the website structure changes
+      Title: //article[5]//header
+# Last Updated October 10, 2023
+# Last Updated January 08, 2021
